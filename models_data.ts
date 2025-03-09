@@ -17,12 +17,12 @@ export default [
     "params": 3,
     "quant": true,
   },
-  // {
-  //   "name": "llama3.3:latest",
-  //   "run_type": "local",
-  //   "params": 70,
-  //   "quant": true,
-  // },
+  {
+    "name": "llama3.3:latest",
+    "run_type": "local",
+    "params": 70,
+    "quant": true,
+  },
   {
     "name": "phi4:latest",
     "run_type": "local",
@@ -41,10 +41,10 @@ export default [
     "params": 7,
     "quant": true,
   },
-  // {
-  //   "name": "qwq",
-  //   "run_type": "local",
-  //   "params": 32,
-  //   "quant": true,
-  // },
+  {
+    "name": "qwq",
+    "run_type": "local",
+    "params": 32,
+    "quant": true,
+  },
 ] as const;

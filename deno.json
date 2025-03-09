@@ -2,6 +2,8 @@
   "tasks": {
     "dev:gen": "deno run -RWN --watch gen.ts",
     "gen": "deno run -RWN gen.ts",
+    "dev:xans": "deno run -RW --watch xans.ts",
+    "xans": "deno run -RW xans.ts",
     "dev:eval": "deno run --watch eval.ts",
     "eval": "deno run eval.ts"
   },

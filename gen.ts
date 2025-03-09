@@ -67,6 +67,8 @@ const resData = resText.split(";;;;").map((row) =>
     completion,
   }];
 }, [] as Record<string, string>[]);
-Deno.writeTextFileSync("gen.out.json", JSON.stringify(resData, null, 2));
+Deno.writeTextFileSync("gen.out.json", JSON.stringify(resData, null, 2), {
+  append: false,
+});
 
 console.log("\nGeneration complete!\n");
