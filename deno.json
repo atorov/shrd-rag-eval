@@ -1,8 +1,12 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev:gen": "deno run -RWN --watch gen.ts",
+    "gen": "deno run -RWN gen.ts",
+    "dev:eval": "deno run --watch eval.ts",
+    "eval": "deno run eval.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "ollama": "npm:ollama@^0.5.14"
   }
 }
