@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+gen.out.json
+gen.out.txt
+qna.txt
+xans.txt
+*.png
+eval.json
+model_evaluation_summary.*
+.DS_Store
