@@ -4,8 +4,10 @@
     "gen": "deno run -RWN gen.ts",
     "dev:xans": "deno run -RW --watch xans.ts",
     "xans": "deno run -RW xans.ts",
-    "dev:eval": "deno run --watch eval.ts",
-    "eval": "deno run eval.ts"
+    "dev:eval": "deno run -RWN --watch eval.ts",
+    "eval": "deno run -RWN eval.ts",
+    "dev:sum": "deno run -RW --watch sum.ts",
+    "sum": "deno run -RW sum.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",

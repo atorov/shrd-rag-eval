@@ -133,3 +133,7 @@ gen.out.json
 gen.out.txt
 qna.txt
 xans.txt
+*.png
+eval.json
+model_evaluation_summary.*
+.DS_Store
